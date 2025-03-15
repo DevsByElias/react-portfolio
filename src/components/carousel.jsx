@@ -2,7 +2,7 @@ import microsoftLogo from '../assets/microsoft.png';
 import cssLogo from '../assets/css-3.png';
 import ADLogo from '../assets/AD.png';
 import EntraLogo from '../assets/Entra.png';
-import FigmaLogo from '../assets/Figma.png';
+import FigmaLogo from '../assets/figma.png';
 import JSLogo from '../assets/JS.png';
 import HTMLogo from '../assets/HTML.png';
 import ReactLogo from '../assets/React.png';
