@@ -14,8 +14,8 @@ function Projects() {
         'A streamlined movie search application that allows users to find films and save their favorites for future reference.',
       image: moviemateImg,
       technologies: ['JavaScript', 'HTML', 'CSS'],
-      demoLink: 'https://moviemate.example.com',
-      codeLink: 'https://github.com/yourusername/moviemate',
+      demoLink: 'https://moviematebyelias.netlify.app/',
+      codeLink: 'https://github.com/DevsByElias/MovieApp',
     },
     {
       title: 'BlackJack',
@@ -138,12 +138,12 @@ function Projects() {
             href="https://github.com/DevsByElias"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center rounded-md bg-gray-100 px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-500 hover:text-black  "
+            className="inline-flex items-center justify-center rounded-md bg-gray-100 px-5 py-3 text-sm font-medium text-gray-700 shadow-md transition-all duration-300 ease-in-out transform hover:scale-105 hover:bg-gray-200 hover:text-black active:scale-95"
           >
             View More Projects on GitHub
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5 ml-2"
+              className="h-5 w-5 ml-2 transition-transform duration-300 ease-in-out group-hover:translate-x-1"
               viewBox="0 0 20 20"
               fill="currentColor"
             >

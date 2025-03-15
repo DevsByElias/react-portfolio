@@ -5,6 +5,8 @@ function Home() {
         <h1 className="font-inter text-[10vw] sm:text-[85px] leading-none mt-12 font-bold text-[#221f22] text-left whitespace-nowrap">
           Hi! I'm{' '}
           <span className="bg-gradient-to-r from-[#00F5A0] via-[#9e43cc] to-[#FF0080] bg-[length:200%_auto] animate-[gradientAnimation_3s_ease-in-out_infinite] bg-clip-text text-transparent">
+            {' '}
+            {}
             Elias
           </span>
         </h1>

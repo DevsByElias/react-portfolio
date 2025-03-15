@@ -57,12 +57,12 @@ function About() {
                 </h2>
                 <p className="mt-3 text-sm/6 text-gray-600 text-center sm:text-left">
                   Outside of technology, I maintain an active lifestyle through
-                  regular gym workouts and rock climbing, which help me build
-                  both physical strength and problem-solving skills. I'm also an
-                  avid reader, enjoy gaming during my downtime, and find
-                  inspiration through music. These diverse interests help me
-                  maintain a balanced life and often provide fresh perspectives
-                  that I bring to my technical work.
+                  regular gym workouts and bouldering, which help me build both
+                  physical strength and problem-solving skills. I'm also an avid
+                  reader, enjoy gaming during my downtime, and find inspiration
+                  through music. These diverse interests help me maintain a
+                  balanced life and often provide fresh perspectives that I
+                  bring to my technical work.
                 </p>
               </div>
             </div>

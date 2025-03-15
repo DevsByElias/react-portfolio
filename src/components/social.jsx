@@ -7,7 +7,7 @@ export default function Social() {
   return (
     <div className="social-container pl-5">
       <h2 className="mx-auto mt-50 max-w-lg  text-4xl font-semibold tracking-tight text-balance text-gray-950 sm:text-5xl text-left border-l-3 border-[#00F5A0] pl-5">
-        Get In Touch
+        Get in Touch
       </h2>
       <div className="flex flex-row-reverse mb-5 mr-50 gap-1">
         {' '}
