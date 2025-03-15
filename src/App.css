@@ -1,0 +1,18 @@
+@keyframes gradientAnimation {
+  0%,
+  100% {
+    background-position: 100% center;
+  }
+  50% {
+    background-position: 0% center;
+  }
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
