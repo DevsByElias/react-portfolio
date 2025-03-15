@@ -7,7 +7,6 @@ import recipefinderImg from '../assets/recipefinder.png';
 import pixelperfectionImg from '../assets/pixelperfection.png';
 
 function Projects() {
-  // Sample project data - replace with your actual projects
   const projects = [
     {
       title: 'MovieMate',
@@ -69,11 +68,11 @@ function Projects() {
     <section className="pt-25">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
-          <h2 className="mx-auto mt-2 max-w-lg text-center text-4xl font-semibold tracking-tight text-balance text-gray-950 sm:text-5xl">
+          <p className="mx-auto max-w-lg text-center text-3xl font-semibold tracking-tight text-balance text-gray-950 sm:text-4xl md:text-5xl px-4">
             Projects
-          </h2>
+          </p>
           <p className="mt-4 text-lg leading-8 text-gray-600">
-            A showcase of my recent work and side projects
+            A showcase of my recent work and side projects ⚡
           </p>
         </div>
 
@@ -139,7 +138,7 @@ function Projects() {
             href="https://github.com/DevsByElias"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center rounded-md bg-gray-100 px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-500 hover:text-black border-1 "
+            className="inline-flex items-center justify-center rounded-md bg-gray-100 px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-500 hover:text-black  "
           >
             View More Projects on GitHub
             <svg

@@ -6,7 +6,6 @@ import Projects from './components/projects';
 import Navbar from './components/navbar';
 import AutoPlayCarousel from './components/carousel';
 import Background from './components/background';
-
 import Social from './components/social';
 import './App.css';
 

@@ -6,11 +6,12 @@ import FigmaLogo from '../assets/figma.png';
 import JSLogo from '../assets/JS.png';
 import HTMLogo from '../assets/HTML.png';
 import ReactLogo from '../assets/React.png';
+import TailwindLogo from '../assets/Tailwind CSS.png';
 
 const logos = [
   { src: cssLogo, alt: 'CSS', name: 'CSS' },
-  { src: ADLogo, alt: 'Active Directory', name: 'AD' },
-  { src: microsoftLogo, alt: 'Microsoft', name: 'Microsoft' },
+  { src: ADLogo, alt: 'Active Directory', name: 'Active Directory' },
+  { src: TailwindLogo, alt: 'Tailwind', name: 'Tailwind' },
   { src: EntraLogo, alt: 'Microsoft Entra', name: 'Entra' },
   { src: FigmaLogo, alt: 'Figma', name: 'Figma' },
   { src: JSLogo, alt: 'JavaScript', name: 'JavaScript' },
@@ -21,7 +22,7 @@ const logos = [
 function AutoPlayCarousel() {
   return (
     <div className="overflow-hidden relative w-full py-2.5 px-0">
-      <div className="flex gap-[300px] w-max animate-[scroll_20s_linear_infinite] hover:animate-[scroll_10s_linear_infinite_paused] after:content-[''] after:flex">
+      <div className="flex gap-[350px] w-max animate-[scroll_20s_linear_infinite] hover:animate-[scroll_10s_linear_infinite_paused] after:content-[''] after:flex">
         {logos.map((logo, index) => (
           <div className="flex items-center" key={index}>
             <img

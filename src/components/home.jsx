@@ -1,6 +1,3 @@
-import { Link } from 'react-router-dom';
-import twitterImg from '../assets/github.png';
-
 function Home() {
   return (
     <div className="w-3/4 max-w-[1200px] mx-auto my-auto p-24 flex justify-center">

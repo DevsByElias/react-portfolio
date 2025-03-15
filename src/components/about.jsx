@@ -6,7 +6,7 @@ function About() {
       </p>
       <div className="mx-auto max-w-xl px-4 sm:px-6 lg:max-w-6xl">
         <div className="mt-8 sm:mt-12 grid gap-6 sm:gap-8">
-          <div className="relative transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+          <div className="relative">
             <div className="absolute inset-px rounded-2xl bg-white"></div>
             <div className="relative flex h-full flex-col overflow-hidden rounded-2xl">
               <div className="p-6 sm:p-8">
@@ -27,7 +27,7 @@ function About() {
             <div className="pointer-events-none absolute inset-px rounded-2xl ring-1 shadow-sm ring-black/5"></div>
           </div>
 
-          <div className="relative transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+          <div className="relative">
             <div className="absolute inset-px rounded-2xl bg-white"></div>
             <div className="relative flex h-full flex-col overflow-hidden rounded-2xl">
               <div className="p-6 sm:p-8">
@@ -48,7 +48,7 @@ function About() {
             <div className="pointer-events-none absolute inset-px rounded-2xl ring-1 shadow-sm ring-black/5"></div>
           </div>
 
-          <div className="relative transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+          <div className="relative">
             <div className="absolute inset-px rounded-2xl bg-white"></div>
             <div className="relative flex h-full flex-col overflow-hidden rounded-2xl">
               <div className="p-6 sm:p-8">
@@ -69,7 +69,7 @@ function About() {
             <div className="pointer-events-none absolute inset-px rounded-2xl ring-1 shadow-sm ring-black/5"></div>
           </div>
 
-          <div className="relative transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+          <div className="relative">
             <div className="absolute inset-px rounded-2xl bg-white"></div>
             <div className="relative flex h-full flex-col overflow-hidden rounded-2xl">
               <div className="p-6 sm:p-8">
