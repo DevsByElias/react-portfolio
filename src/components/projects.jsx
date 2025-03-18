@@ -1,10 +1,10 @@
 import React from 'react';
 import moviemateImg from '../assets/moviemate.png';
 import blackjackImg from '../assets/blackjack.png';
-import agecalculatorImg from '../assets/agecalculator.png';
 import libraryImg from '../assets/library.png';
 import recipefinderImg from '../assets/recipefinder.png';
 import pixelperfectionImg from '../assets/pixelperfection.png';
+import reactportfolioImg from '../assets/react-portfolio.png';
 
 function Projects() {
   const projects = [
@@ -13,7 +13,7 @@ function Projects() {
       description:
         'A streamlined movie search application that allows users to find films and save their favorites for future reference.',
       image: moviemateImg,
-      technologies: ['JavaScript', 'HTML', 'CSS'],
+      technologies: ['React', 'HTML', 'CSS'],
       demoLink: 'https://moviematebyelias.netlify.app/',
       codeLink: 'https://github.com/DevsByElias/MovieApp',
     },
@@ -27,13 +27,12 @@ function Projects() {
       codeLink: 'https://github.com/DevsByElias/JSblackjack',
     },
     {
-      title: 'Age Calculator',
-      description:
-        'Simple yet powerful tool for calculating exact age in years, months, and days between any two dates with clean visualization.',
-      image: agecalculatorImg,
-      technologies: ['JavaScript', 'HTML', 'CSS'],
-      demoLink: 'https://vermillion-jalebi-16d144.netlify.app/',
-      codeLink: 'https://github.com/DevsByElias/age-calculator',
+      title: 'Portfolio',
+      description: 'My portfolio website, built using React and Tailwind',
+      image: reactportfolioImg,
+      technologies: ['React', 'Tailwind', 'HTML', 'CSS'],
+      demoLink: 'https://portfoliobyelias.netlify.app/',
+      codeLink: 'https://github.com/DevsByElias/react-portfolio',
     },
     {
       title: 'Library',

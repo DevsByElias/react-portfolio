@@ -21,7 +21,7 @@ const logos = [
 
 function AutoPlayCarousel() {
   return (
-    <div className="overflow-hidden relative w-full py-2.5 px-0">
+    <div className="overflow-hidden relative w-full mt-25 py-2.5 px-0">
       <div className="flex gap-[350px] w-max animate-[scroll_20s_linear_infinite] hover:animate-[scroll_10s_linear_infinite_paused] after:content-[''] after:flex">
         {logos.map((logo, index) => (
           <div className="flex items-center" key={index}>
