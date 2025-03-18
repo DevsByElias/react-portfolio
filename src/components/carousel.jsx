@@ -1,4 +1,3 @@
-import microsoftLogo from '../assets/microsoft.png';
 import cssLogo from '../assets/css-3.png';
 import ADLogo from '../assets/AD.png';
 import EntraLogo from '../assets/Entra.png';
